@@ -43,7 +43,8 @@ Diagnosed the root cause: `curl http://localhost:9200` returned a `security_exce
 
 **Fix:** switched to the "Advanced" setup path, which generates a proper **service token** — a scoped Elasticsearch credential — and bakes it into the install command via `--fleet-server-service-token`.
 
-![service token install command](images/fleet-install-command.png)
+<img width="1148" height="1043" alt="image" src="https://github.com/user-attachments/assets/dea667a2-de76-4dd4-a1df-d298c0fc99ed" />
+
 
 Fleet Server installed and enrolled successfully:
 
