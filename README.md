@@ -1,5 +1,8 @@
 # Elastic Defend EDR Home Lab
 
+
+
+
 Windows Host (VirtualBox)
         │
         ▼
@@ -16,6 +19,11 @@ Windows Host (VirtualBox)
 │  Elastic Agent + Defend           │
 │  (same VM = monitored endpoint)   │
 └─────────────────────────────────┘
+
+
+
+
+
 
 ## Objectives
 
