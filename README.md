@@ -24,7 +24,9 @@ Kibana was reachable at `http://192.168.1.158:5601` after fixing a Docker networ
 
 Started the Fleet Server setup from Fleet → Agents → Add Fleet Server:
 
-![fleet server wizard](images/fleet-setup.png)
+<img width="1271" height="695" alt="fleet-setup" src="https://github.com/user-attachments/assets/0e48eebe-863e-45ce-b1cd-31a8fdb1eff1" />
+
+
 
 ## Fixing a Fleet Server Authentication Failure
 
@@ -54,7 +56,8 @@ Added the Elastic Defend integration to the same agent policy already running Fl
 
 Confirmed the endpoint as **Healthy** under Security → Assets → Endpoints. (Note: Kibana's Security navigation is hidden by default in `start-local` deployments, since the space defaults to an Elasticsearch-only "Solution View" — found it via Stack Management → Spaces.)
 
-![endpoint healthy](images/endpoint-healthy.png)
+<img width="1277" height="698" alt="fleet-server-healthy" src="https://github.com/user-attachments/assets/a7d7b203-f51d-42e7-967e-052967ff0161" />
+
 
 ## Validating Detection: EICAR Malware Test
 
