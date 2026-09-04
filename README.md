@@ -54,7 +54,8 @@ Fleet Server installed and enrolled successfully:
 
 Added the Elastic Defend integration to the same agent policy already running Fleet Server, configured at the **Complete EDR** tier — the highest of four available levels (Data Collection → NGAV → Essential EDR → Complete EDR).
 
-![elastic defend configuration](images/defend-config.png)
+<img width="1408" height="840" alt="image" src="https://github.com/user-attachments/assets/0dce2f7c-59fd-4dd9-a133-cf7638d7e427" />
+
 
 Confirmed the endpoint as **Healthy** under Security → Assets → Endpoints. (Note: Kibana's Security navigation is hidden by default in `start-local` deployments, since the space defaults to an Elasticsearch-only "Solution View" — found it via Stack Management → Spaces.)
 
