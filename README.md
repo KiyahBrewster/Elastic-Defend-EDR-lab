@@ -15,7 +15,8 @@ Unlike traditional antivirus, which mostly scans files against known malware sig
 
 Deployed Elasticsearch and Kibana via Elastic's `start-local` Docker script, running on the Ubuntu VM.
 
-<img width="1280" height="764" alt="kibana-home" src="https://github.com/user-attachments/assets/f77c4508-069d-4486-bbb0-4e832b0b4a4a" />
+<img width="1279" height="698" alt="kibana-home" src="https://github.com/user-attachments/assets/62248050-ba4b-45ee-99be-badf1c808baf" />
+
 
 
 
