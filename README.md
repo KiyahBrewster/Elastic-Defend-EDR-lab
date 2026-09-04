@@ -1,23 +1,6 @@
 # Elastic Defend EDR Home Lab
 
-```
-Windows Host (VirtualBox)
-        │
-        ▼
-┌─────────────────────────────────┐
-│  Ubuntu Server VM (ubuntu-elastic)│
-│  192.168.1.158 — bridged network  │
-│                                    │
-│  Elasticsearch + Kibana (Docker)  │
-│         ▲                         │
-│         │                         │
-│    Fleet Server                   │
-│         ▲                         │
-│         │                         │
-│  Elastic Agent + Defend           │
-│  (same VM = monitored endpoint)   │
-└─────────────────────────────────┘
-```
+<img width="1085" height="946" alt="EDR_Lab drawio" src="https://github.com/user-attachments/assets/ddee30d3-38b1-4e7d-9cba-4eab46e69848" />
 
 ## Objectives
 
