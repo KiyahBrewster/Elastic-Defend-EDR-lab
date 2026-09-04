@@ -24,7 +24,7 @@ Kibana was reachable at `http://192.168.1.158:5601` after fixing a Docker networ
 
 Started the Fleet Server setup from Fleet → Agents → Add Fleet Server:
 
-<img width="1271" height="695" alt="fleet-setup" src="https://github.com/user-attachments/assets/0e48eebe-863e-45ce-b1cd-31a8fdb1eff1" />
+<img width="514" height="658" alt="Screenshot 2026-09-03 225722" src="https://github.com/user-attachments/assets/a4faf1e6-7b40-4974-a096-a6aec8c00a7b" />
 
 
 
