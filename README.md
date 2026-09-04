@@ -1,11 +1,5 @@
 # Elastic Defend EDR Home Lab
 
-This is the second project in a three-part security homelab series:
-1. [Wazuh SIEM + Cowrie Honeypot](https://github.com/KiyahBrewster/wazuh-siem-honeypot-lab)
-2. **Elastic Defend EDR** (this repo)
-3. IAM (Entra ID) — planned
-4. WAF (SafeLine) — planned
-
 ## Objectives
 
 This lab simulates deploying Elastic's EDR product (Elastic Defend) on a self-managed Elastic Stack, then validating that detection and prevention actually work end-to-end. The setup includes:
