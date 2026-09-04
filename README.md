@@ -1,5 +1,22 @@
 # Elastic Defend EDR Home Lab
 
+Windows Host (VirtualBox)
+        │
+        ▼
+┌─────────────────────────────────┐
+│  Ubuntu Server VM (ubuntu-elastic)│
+│  192.168.1.158 — bridged network  │
+│                                    │
+│  Elasticsearch + Kibana (Docker)  │
+│         ▲                         │
+│         │                         │
+│    Fleet Server                   │
+│         ▲                         │
+│         │                         │
+│  Elastic Agent + Defend           │
+│  (same VM = monitored endpoint)   │
+└─────────────────────────────────┘
+
 ## Objectives
 
 This lab simulates deploying Elastic's EDR product (Elastic Defend) on a self-managed Elastic Stack, then validating that detection and prevention actually work end-to-end. The setup includes:
