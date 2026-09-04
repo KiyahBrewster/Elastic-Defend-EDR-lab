@@ -38,7 +38,8 @@ Error: fleet-server failed: timed out waiting for Fleet Server to start after 2m
 
 Diagnosed the root cause: `curl http://localhost:9200` returned a `security_exception` — the Quick Start command didn't include Elasticsearch authentication credentials, so Fleet Server couldn't connect.
 
-![fleet server timeout error](images/fleet-timeout-error.png)
+<img width="1148" height="1043" alt="image" src="https://github.com/user-attachments/assets/c6bffcf5-6729-4a07-90b1-46ad246d9f9d" />
+
 
 **Fix:** switched to the "Advanced" setup path, which generates a proper **service token** — a scoped Elasticsearch credential — and bakes it into the install command via `--fleet-server-service-token`.
 
@@ -76,7 +77,8 @@ ls: cannot access '/home/vboxuser/eicar.txt': No such file or directory
 
 Elastic Defend's malware prevention engine caught and removed the file in real time.
 
-![eicar terminal result](images/eicar-terminal.png)
+<img width="1148" height="1043" alt="image" src="https://github.com/user-attachments/assets/fe82858f-20b3-4e3f-99f6-3ef3b6ce7b6c" />
+
 
 Confirmed in Kibana's Alerts dashboard:
 
@@ -88,7 +90,8 @@ Confirmed in Kibana's Alerts dashboard:
 | Host | ubuntu-elastic |
 | Reason | malware, intrusion_detection, file event with process context |
 
-![eicar malware prevention alert](images/eicar-alert.png)
+<img width="1280" height="764" alt="eicar-alert" src="https://github.com/user-attachments/assets/1dd2b63c-81a5-4b6a-9707-cf4e3c4815bf" />
+
 
 ## Conclusion
 
