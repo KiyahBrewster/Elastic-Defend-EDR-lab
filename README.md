@@ -14,8 +14,9 @@ Unlike traditional antivirus, which mostly scans files against known malware sig
 ## Setting Up Elasticsearch, Kibana, and Fleet Server
 
 Deployed Elasticsearch and Kibana via Elastic's `start-local` Docker script, running on the Ubuntu VM.
+<img width="1280" height="764" alt="kibana-home" src="https://github.com/user-attachments/assets/f77c4508-069d-4486-bbb0-4e832b0b4a4a" />
 
-![kibana home](images/kibana-home.png)
+
 
 Kibana was reachable at `http://192.168.1.158:5601` after fixing a Docker networking issue — the default `docker-compose.yml` bound Kibana to `127.0.0.1:5601` only, which is unreachable from outside the container. Rebound to `0.0.0.0:5601`.
 
