@@ -47,7 +47,7 @@ Diagnosed the root cause: `curl http://localhost:9200` returned a `security_exce
 
 Fleet Server installed and enrolled successfully:
 
-![fleet server healthy](images/fleet-server-healthy.png)
+<img width="1277" height="698" alt="fleet-server-healthy" src="https://github.com/user-attachments/assets/a7d7b203-f51d-42e7-967e-052967ff0161" />
 
 ## Deploying Elastic Defend
 
@@ -57,7 +57,8 @@ Added the Elastic Defend integration to the same agent policy already running Fl
 
 Confirmed the endpoint as **Healthy** under Security → Assets → Endpoints. (Note: Kibana's Security navigation is hidden by default in `start-local` deployments, since the space defaults to an Elasticsearch-only "Solution View" — found it via Stack Management → Spaces.)
 
-<img width="1277" height="698" alt="fleet-server-healthy" src="https://github.com/user-attachments/assets/a7d7b203-f51d-42e7-967e-052967ff0161" />
+<img width="1280" height="695" alt="endpoint-healthy" src="https://github.com/user-attachments/assets/07c62c9f-653d-4508-951a-e0d98147ce9f" />
+
 
 
 ## Validating Detection: EICAR Malware Test
